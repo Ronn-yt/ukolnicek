@@ -1,6 +1,12 @@
 // udelame si dalsi promenne celkemUkolu = 0 a hotovoUkolu = 0
 let celkemUkolu = 0
 let hotovoUkolu = 0
+let zvuk = new Audio("
+https://www.myinstants.com/media/sounds/mario-coin.mp3
+");
+
+zvuk.play
+();  
 
 // najit prvky
 let textCelkem = document.querySelector("#celkem-pocet")
